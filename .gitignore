@@ -1,35 +1,29 @@
-# Object files
 *.o
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
 *.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-
-# Vim
+*.d
+*.cmd
+*.pyc
 *.swp
+*.swo
+!arch/*/*/**/*.cmd
+*~
+cscope.*
+.dir
+outdir
+scripts/basic/fixdep
+scripts/gen_idt/gen_idt
+scripts/gen_offset_header/gen_offset_header
+scripts/kconfig/conf
+scripts/kconfig/mconf
+scripts/kconfig/zconf.hash.c
+scripts/kconfig/zconf.lex.c
+scripts/kconfig/zconf.tab.c
+doc/_build
+xml
+html/
+doc/latex/
+sanity-out/
+scripts/grub
+doc/reference/kconfig/CONFIG_*
+doc/reference/kconfig/index.rst
+tags
